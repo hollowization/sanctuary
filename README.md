@@ -41,7 +41,7 @@ This repository contains configuration and documentation for my personal workben
 | 403 | Active Directory Client | QEMU VM | `services/x64/client/` |
 | 405 | Red Hat Enterprise Linux | QEMU VM | `services/x64/rhel/` |
 
-See the [x64 inventory](services/x64/README.md) for tracked guest and application files. VM definitions are Proxmox configuration, not Docker Compose services. V
+See the [x64 inventory](services/x64/README.md) for tracked guest and application files. VM definitions are Proxmox configuration, not Docker Compose services.
 
 ## Starting a Compose stack
 
