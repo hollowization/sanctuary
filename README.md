@@ -33,13 +33,12 @@ This repository contains configuration and documentation for my personal workben
 | 106 | Wazuh | LXC | `services/x64/wazuh/` |
 | 108 | ESPHome | LXC | `services/x64/esphome/` |
 | 200 | OPNsense | QEMU VM | `services/x64/opnsense/` |
-| 300 | Parrot | QEMU VM | `services/x64/parrot/` |
+| 300 | Parrot OS | QEMU VM | `services/x64/parrot/` |
 | 301 | Sandbox | QEMU VM | `services/x64/sandbox/` |
 | 400 | Domain Controller | QEMU VM | `services/x64/dc/` |
 | 401 | Server 1 | QEMU VM | `services/x64/sv1/` |
 | 402 | Server 2 | QEMU VM | `services/x64/sv2/` |
 | 403 | Active Directory Client | QEMU VM | `services/x64/client/` |
-| 405 | Red Hat Enterprise Linux | QEMU VM | `services/x64/rhel/` |
 
 See the [x64 inventory](services/x64/README.md) for tracked guest and application files. VM definitions are Proxmox configuration, not Docker Compose services.
 
