@@ -223,4 +223,4 @@ The evidence supports identifying Dramaly as the primary cause of the incident. 
 - Android advertising activity identification
 - macOS ARM64 investigation environment
 
-**Investigation status:** Primary source identified; permanent removal pending verification.
+**Investigation status:** Primary source identified, application removed, pending reverse engineering.
