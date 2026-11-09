@@ -173,29 +173,6 @@ adb logcat -v time -s ActivityTaskManager:I ActivityManager:I
 11-09 14:11:02.624 I/ActivityManager( 2082): freezing 13881 com.hihonor.coauthservice
 11-09 14:11:02.629 I/ActivityManager( 2082): freezing 5639 com.hihonor.searchservice
 11-09 14:11:02.634 I/ActivityManager( 2082): freezing 13664 com.hihonor.detectrepair
-^C
-s3nnnzzzatyeeee@Stefanuts-MacBook-Air Android % >....                                                                   
-11-09 14:10:24.904 I/ActivityManager( 2082): ProcessRecord to clean, name: com.google.android.cellbroadcastreceiver, uid: 10172, app: ProcessRecord{b305d3 13123:com.google.android.cellbroadcastreceiver/u0a172}
-11-09 14:10:24.917 I/ActivityManager( 2082): ProcessRecord to clean, name: com.google.android.apps.photos, uid: 10160, app: ProcessRecord{32357cf 13281:com.google.android.apps.photos/u0a160}
-11-09 14:10:24.974 W/ActivityManager( 2082): Sending non-protected broadcast com.intent.action.dns_statistics from system 2082:system/1000 pkg android
-11-09 14:10:25.270 W/ActivityManager( 2082): Sending non-protected broadcast com.android.nfc.action.LX_DATA from system 4782:com.android.nfc/1027 pkg com.android.nfc
-11-09 14:10:25.533 I/ActivityManager( 2082): Start proc 15000:com.android.chrome:privileged_process0/u0a151 for service {com.android.chrome/org.chromium.content.app.PrivilegedProcessService0}
-11-09 14:10:25.533 I/ActivityManager( 2082): ProcessObserver broadcast disabled
-11-09 14:10:25.775 I/ActivityManager( 2082): freezing 10069 com.whatsapp
-11-09 14:10:25.780 I/ActivityManager( 2082): freezing 12266 com.google.android.apps.youtube.music
-11-09 14:10:25.784 I/ActivityManager( 2082): freezing 12651 com.google.android.youtube
-11-09 14:10:25.891 I/ActivityManager( 2082): freezing 10666 com.hihonor.android.pushagent
-11-09 14:10:26.659 W/ActivityManager( 2082): Slow operation: 153ms so far, now at startProcess: returned from zygote!
-11-09 14:10:26.660 W/ActivityManager( 2082): Slow operation: 154ms so far, now at startProcess: done updating battery stats
-11-09 14:10:26.660 W/ActivityManager( 2082): Slow operation: 154ms so far, now at startProcess: building log message
-11-09 14:10:26.660 I/ActivityManager( 2082): Start proc 15052:com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0ai0 for  {com.android.chrome/org.chromium.content.app.SandboxedProcessService0:0}
-11-09 14:10:26.660 W/ActivityManager( 2082): Slow operation: 154ms so far, now at startProcess: starting to update pids map
-11-09 14:10:26.661 I/ActivityManager( 2082): ProcessObserver broadcast disabled
-11-09 14:10:26.661 W/ActivityManager( 2082): Slow operation: 155ms so far, now at startProcess: done updating pids map
-11-09 14:10:26.979 I/ActivityManager( 2082): freezing 13881 com.hihonor.coauthservice
-11-09 14:10:40.009 W/ActivityManager( 2082): Sending non-protected broadcast com.hihonor.intent.action.PG_AR_STATE_ACTION from system 3050:com.hihonor.iaware/1000 pkg com.hihonor.android.hnaps
-1
-zsh: parse error near `}'
 s3nnnzzzatyeeee@Stefanuts-MacBook-Air Android % adb shell pm disable-user --user 0 com.dramaly.shortfilm
 Package com.dramaly.shortfilm new state: disabled-user
 s3nnnzzzatyeeee@Stefanuts-MacBook-Air Android % adb uninstall com.dramaly.shortfilm
